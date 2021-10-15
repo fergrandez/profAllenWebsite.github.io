@@ -10,6 +10,10 @@
 .navbar {
     background-color: #333;
     overflow: hidden;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 /* styling the links inside the navigation bar */
@@ -79,6 +83,17 @@
     background-color: #f1f1f1;
   }
 
+  .card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  /* When the mouse hovers over a card, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+
   /* Style the container/contact section */
 .container {
     border-radius: 5px;
@@ -101,6 +116,15 @@
     clear: both;
   }
 
+  /* styling footer */
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: white;
+  }
+
 
 
 
@@ -116,7 +140,12 @@
   
   /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
-    .navbar.responsive {position: relative;}
+    .navbar.responsive {
+        /*position: relative;*/
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
     .navbar.responsive a.icon {
       position: absolute;
       right: 0;
