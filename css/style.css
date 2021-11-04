@@ -17,7 +17,7 @@
 }
 
 /* styling the links inside the navigation bar */
-.navbar a{
+.navbar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -39,7 +39,7 @@
 }
 
 /* hide the link that should open and close the navigation bar on small screens */
-.navbar .icon{
+.navbar .icon {
     display: none;
 }
 
@@ -57,10 +57,14 @@
     float: left;
     width: 25%;
     padding: 0 10px;
+    padding-bottom: 20px;
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
+  .row {
+    margin: 0 -5px;
+    padding-top: 20px;
+  }
   
   /* Clear floats after the columns */
   .row:after {
@@ -119,6 +123,18 @@
     color: white;
   }
 
+  .copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+  }
+
   /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
@@ -143,6 +159,10 @@
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+.resources {
+  padding-bottom: 20px;
 }
 
 
