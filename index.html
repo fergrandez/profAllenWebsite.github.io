@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Professor Allen's Website</title>
+
+        <!-- link to css file -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+
+
+    <body>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- navigation bar and its links-->
+        <div style="top: 0; position: -webkit-sticky; position: sticky">
+          <div class="navbar" id="myNavbar">
+              <a class="active" href="html pages/CNT 4104 Project.html">Home</a>
+              <div class="dropdown">
+                  <button class="dropbtn">Courses
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="html pages/Course1 Page.html">Course1</a>
+                    <a href="html pages/Course2 Page.html">Course2</a>
+                    <a href="html pages/Course3 Page.html">Course3</a>
+                    <a href="html pages/Course4 Page.html">Course4</a>
+                  </div>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="displayMenu()">
+                  <i class="fa fa-bars"></i>
+              </a>
+          </div>
+      </div>
+
+        <!-- main header -->
+        <div class="header">
+            <h1>Home</h1>
+            <p>Welcome to Professor Allen's Website!</p>
+        </div>
+
+        <div class="container">
+            <div style="text-align:center">
+                <h2>A Little About Me</h2>
+                <p>Short bio about professor.</p>
+            </div>
+            <div class="containerRow">
+                <div class="containerCol">
+                    <img src="https://georgetownheckler.com/wp-content/uploads/2016/09/prof-768x512.jpg" style="width:100%">
+                </div>
+                <div class="containerCol">
+                    <h2>Contact Info</h2>
+                    <h3>Email</h3>
+                    <p>professoremail@fgcu.edu</p>
+                    <h3>Phone Number</h3>
+                    <p>(123) 456-7890</p>
+                    <h3>Office Location</h3>
+                    <p>Holmes Hall Room 224.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- column cards displaying each course-->
+        <div class="row">
+          <a href="html pages/Course1 Page.html">
+            <div class="column">
+              <div class="card">
+                <img class="card-img" src="https://computercare.net/wp-content/uploads/2019/08/Blog-Post-Header.png">
+                <h3>Course1</h3>
+                <p>Short description</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="html pages/Course2 Page.html">
+            <div class="column">
+              <div class="card">
+                <img class="card-img" src="https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg">
+                <h3>Course2</h3>
+                <p>Short description</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="html pages/Course3 Page.html">
+            <div class="column">
+              <div class="card">
+                  <img class="card-img" src="https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg">
+                  <h3>Course3</h3>
+                  <p>Short description</p>
+              </div>
+            </div>
+          </a>
+          
+          <a href="html pages/Course4 Page.html">
+            <div class="column">
+              <div class="card">
+                <img class="card-img" src="https://images.easytechjunkie.com/green-lit-numbers.jpg">
+                <h3>Course4</h3>
+                <p>Short description</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+          <footer>
+            <div class="copyright">&copy;2021 - <strong>GRID</strong></div>
+          </footer>
+
+
+        <!-- js file link -->
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
