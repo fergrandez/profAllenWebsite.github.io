@@ -99,6 +99,48 @@ body {
     color: white;
     font-size: 30px;
   }
+
+  .course1header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://computercare.net/wp-content/uploads/2019/08/Blog-Post-Header.png");
+    color: white;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course2header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg");
+    color: white;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course3header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg");
+    color: white;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course4header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
+    color: white;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   
   /* Float four columns side by side */
   .column {
