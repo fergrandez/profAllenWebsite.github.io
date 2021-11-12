@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Add a black background color to the navigation bar*/
+.navbar {
+  background-color: #003366;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the navbar */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0; 
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute; /* sticky */ 
+  background-color: #003366;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #CCCCCC;
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+}
+
+/* Add a dark background on navbar links and the dropdown button on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #336699;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* styling the main header on the home page */
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://fgcucdn.fgcu.edu/adminservices/facilities/images/contact-facilities.jpg");
+    color: white;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .course1header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_laptop_computers.jpg");
+    color: #CCCC99;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course2header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_mac.jpg");
+    color: #CCCC99;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course3header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_pc.jpg");
+    color: #CCCC99;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .course4header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://www.educative.io/v2api/editorpage/4778911335448576/image/6289910425190400");
+    color: #CCCC99;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    padding-bottom: 20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+    margin: 0 -5px;
+    padding-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  /* When the mouse hovers over a card, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  /* Style the container/contact section */
+.container {
+  margin-top: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .containerCol {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .containerRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* styling footer */
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: white;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+  }
+
+  /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.resources {
+  padding-bottom: 20px;
+}
+
+
+
+
+/* media queries */ 
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {
+    position: relative;
+  }
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .containerCol {
+    width: 100%;
+    margin-top: 0;
+  }
+}
