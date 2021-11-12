@@ -9,7 +9,7 @@ body {
 
 /* Add a black background color to the navigation bar*/
 .navbar {
-  background-color: #333;
+  background-color: #003366;
   overflow: hidden;
 }
 
@@ -57,25 +57,26 @@ body {
 .dropdown-content {
   display: none;
   position: absolute; /* sticky */ 
-  background-color: #f9f9f9;
+  background-color: #003366;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px #CCCCCC;
   z-index: 1;
 }
 
 /* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 15px;
 }
 
 /* Add a dark background on navbar links and the dropdown button on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #336699;
   color: white;
 }
 
@@ -95,16 +96,20 @@ body {
 .header {
     padding: 60px;
     text-align: center;
-    background: #04AA6D;
+    background-image: url("https://fgcucdn.fgcu.edu/adminservices/facilities/images/contact-facilities.jpg");
     color: white;
     font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
 
   .course1header {
     padding: 60px;
     text-align: center;
-    background-image: url("https://computercare.net/wp-content/uploads/2019/08/Blog-Post-Header.png");
-    color: white;
+    background-image: url("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_laptop_computers.jpg");
+    color: #CCCC99;
     font-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,8 +118,8 @@ body {
   .course2header {
     padding: 60px;
     text-align: center;
-    background-image: url("https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg");
-    color: white;
+    background-image: url("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_mac.jpg");
+    color: #CCCC99;
     font-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,8 +128,8 @@ body {
   .course3header {
     padding: 60px;
     text-align: center;
-    background-image: url("https://www.racksolutions.com/news//app/uploads/AdobeStock_87909563.jpg");
-    color: white;
+    background-image: url("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_pc.jpg");
+    color: #CCCC99;
     font-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,13 +138,15 @@ body {
   .course4header {
     padding: 60px;
     text-align: center;
-    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
-    color: white;
+    background-image: url("https://www.educative.io/v2api/editorpage/4778911335448576/image/6289910425190400");
+    color: #CCCC99;
     font-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
 
   
   /* Float four columns side by side */
