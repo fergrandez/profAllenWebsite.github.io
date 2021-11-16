@@ -26,7 +26,7 @@ body {
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #04AA6D;
+  background-color: #003366;
   color: white;
 }
 
@@ -147,7 +147,6 @@ body {
   }
 
 
-
   
   /* Float four columns side by side */
   .column {
@@ -219,7 +218,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 3px;
-    background-color: #333;
+    background-color: #003366;
     color: white;
   }
 
@@ -227,7 +226,7 @@ body {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #333;
+    background-color: inherit;
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: lighter;
